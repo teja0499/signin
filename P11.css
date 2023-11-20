@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+table{
+    border: black solid 2px;
+   border-radius: 5px;
+   border-collapse: collapse;
+   
+}
+th,td{
+    border: black solid 2px;
+ padding: 25px;
+}

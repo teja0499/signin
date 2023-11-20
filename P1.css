@@ -1,0 +1,72 @@
+body
+{
+ background-color: white;  
+    font-family: 'Playpen Sans', cursive;
+    margin: 0%;
+    padding: 0%;
+}
+body ::placeholder{
+    font-family: 'Playpen Sans', cursive;
+    color: grey;
+}
+#header{
+   display: flex;
+   justify-content: center;
+}
+#content {
+    display: flex;
+   justify-content: center;
+}
+form{
+  width: 30%;
+  background-color: aqua;
+  border-radius: 5px;
+    border: black solid 2px;
+    padding: 20px;
+}
+#content input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+}
+button{
+    width: 102%;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 4px;
+    background-color: orange;
+    font-size: 15px;
+    color: white;
+    padding: 0.2rem 0;
+    border: none;
+}
+#content .date{
+    width: 33%;
+    border-radius: 0;
+}
+#date-cont{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width :600px) {
+    
+    body{
+        font-family: 'Playpen Sans', cursive;
+    }
+    form{
+        padding: 0%;
+        background-color: white;
+        border: none;
+    }
+     h1{
+        margin-bottom: 0px;
+    }
+    #abc{
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 25px;
+    }
+}
